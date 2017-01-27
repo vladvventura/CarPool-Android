@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Car Pool App</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_register">Register</string>
+    <string name="button_login">Login</string>
+    <string name="find_ride">find a Ride</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_display_message">Tepco\'s Activity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="your_name">Your Name</string>
+    <string name="your_email">Email address</string>
+    <string name="your_phone">Work phone</string>
+    <string name="your_Address1">Street Address</string>
+    <string name="your_Address2">Apartment</string>
+    <string name="your_Address3">City and State</string>
+    <string name="your_Address4">Zip Code</string>
+    <string name="store_Address">Store Address</string>
+    <string name="student_ID">Your Student ID</string>
+    <string name="SS_number">Your Social Security Number</string>
+    <string name="Current_location">Your current location</string>
+    <string name="Desired_destination">Where do you want to go?</string>
+    <string name="from_monday">Monday - coming from</string>
+    <string name="from_tuesday">Tuesday - coming from</string>
+    <string name="from_wednesday">Wednesday - coming from</string>
+    <string name="from_thursday">Thursday - coming from</string>
+    <string name="from_friday">Friday - coming from</string>
+    <string name="from_saturday">Saturday - coming from</string>
+    <string name="from_sunday">Sunday - coming from</string>
+    <string name="to_monday">Monday - going to</string>
+    <string name="to_tuesday">Tuesday - going to</string>
+    <string name="to_wednesday">Wednesday - going to</string>
+    <string name="to_thursday">Thursday - going to</string>
+    <string name="to_friday">Friday - going to</string>
+    <string name="to_saturday">Saturday - going to</string>
+    <string name="to_sunday">Sunday - going to</string>
+    <string name="title_activity_google_play_services">GooglePlayServicesActivity</string>
+</resources>

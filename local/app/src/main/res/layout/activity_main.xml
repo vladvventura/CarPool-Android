@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+        <EditText
+            android:id="@+id/name_message"
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:hint="@string/your_name" />
+
+        <EditText
+            android:id="@+id/Phone_message"
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_below="@+id/name_message"
+            android:layout_height="fill_parent"
+            android:hint="@string/your_phone" />
+
+        <EditText android:id="@+id/email_message"
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/Phone_message"
+            android:hint="@string/your_email" />
+
+        <EditText android:id="@+id/Address1_message"
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/email_message"
+            android:hint="@string/your_Address1" />
+
+        <EditText android:id="@+id/Address2_message"
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/Address1_message"
+            android:hint="@string/your_Address2" />
+
+        <EditText android:id="@+id/Address3_message"
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/Address2_message"
+            android:hint="@string/your_Address3" />
+
+        <EditText android:id="@+id/Address4_message"
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/Address3_message"
+            android:hint="@string/your_Address4" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_register"
+        android:onClick="sendMessage"/>
+    <!--</LinearLayout>-->
+</LinearLayout>

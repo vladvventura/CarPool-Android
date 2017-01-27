@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <ProgressBar android:id="@+id/schedule_progress" style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp" android:visibility="gone" />
+    <!-- coming from -->
+    <ScrollView android:id="@+id/schedule_form" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:id="@+id/schedule_layout_form" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:orientation="vertical">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Put in the times you will want to leave to school and the time you will want to leave from school."
+                />
+            <!-- going to school-->
+            <EditText
+                android:id="@+id/To_Monday"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:hint="@string/to_monday"
+                android:layout_below="@+id/From_Sunday"
+                android:inputType="time"/>
+            <EditText
+                android:id="@+id/To_Tuesday"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@+id/To_Monday"
+                android:hint="@string/to_tuesday"
+                android:inputType="time"/>
+            <EditText
+                android:id="@+id/To_Wednesday"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@+id/To_Tuesday"
+                android:hint="@string/to_wednesday"
+                android:inputType="time"/>
+            <EditText
+                android:id="@+id/To_Thursday"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@+id/To_Wednesday"
+                android:hint="@string/to_thursday"
+                android:inputType="time"/>
+            <EditText
+                android:id="@+id/To_Friday"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@+id/To_Thursday"
+                android:hint="@string/to_friday"
+                android:inputType="time"/>
+            <EditText
+                android:id="@+id/To_Saturday"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@+id/To_Friday"
+                android:hint="@string/to_saturday"
+                android:inputType="time"/>
+            <EditText
+                android:id="@+id/To_Sunday"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@+id/To_Saturday"
+                android:hint="@string/to_sunday"
+                android:inputType="time"/>
+            <!-- coming from school-->
+            <EditText
+                android:id="@+id/From_Monday"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:hint="@string/from_monday"
+                android:inputType="time"/>
+            <EditText
+                android:id="@+id/From_Tuesday"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@+id/From_Monday"
+                android:hint="@string/from_tuesday"
+                android:inputType="time"/>
+            <EditText
+                android:id="@+id/From_Wednesday"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@+id/From_Tuesday"
+                android:hint="@string/from_wednesday"
+                android:inputType="time"/>
+            <EditText
+                android:id="@+id/From_Thursday"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@+id/From_Wednesday"
+                android:hint="@string/from_thursday"
+                android:inputType="time"/>
+            <EditText
+                android:id="@+id/From_Friday"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@+id/From_Thursday"
+                android:hint="@string/from_friday"
+                android:inputType="time"/>
+            <EditText
+                android:id="@+id/From_Saturday"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@+id/From_Friday"
+                android:hint="@string/from_saturday"
+                android:inputType="time"/>
+            <EditText
+                android:id="@+id/From_Sunday"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@+id/From_Saturday"
+                android:hint="@string/from_sunday"
+                android:inputType="time"/>
+
+
+            <Button android:id="@+id/Registration_Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/button_send"
+                android:onClick="sendMessage"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

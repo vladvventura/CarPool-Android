@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <ProgressBar android:id="@+id/registration_progress" style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp" android:visibility="gone" />
+    <ScrollView android:id="@+id/registration_form" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:id="@+id/registration_layout_form" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/first_name_message"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:hint="@string/your_first_name" />
+
+            <EditText
+                android:id="@+id/last_name_message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/your_last_name" />
+
+            <EditText
+                android:id="@+id/Phone_message"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:hint="@string/your_phone"
+                android:inputType="phone" />
+
+            <EditText android:id="@+id/email_message"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:inputType="textEmailAddress"
+                android:hint="@string/your_email" />
+
+            <EditText android:id="@+id/Address1_message"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:hint="@string/your_Address1" />
+
+            <EditText android:id="@+id/Address2_message"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:hint="@string/your_Address2" />
+            <Spinner android:id="@+id/Address3_message"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:hint="@string/your_Address3" />
+            <!--<EditText android:id="@+id/Address3_message"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@+id/Address2_message"
+                android:hint="@string/your_Address3" /> -->
+
+            <EditText android:id="@+id/Address4_message"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:hint="@string/your_Address4" />
+
+            <Button android:id="@+id/Registration_Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/button_send"
+                android:onClick="sendMessage"/>
+        </LinearLayout>
+    <!--</LinearLayout> need Profile, Address, Contact-->
+    </ScrollView>
+
+</LinearLayout>

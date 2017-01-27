@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Car Pool App</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Register</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_display_message">Your Profile</string>
+    <string name="submit_schedule">Submit your schedule</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="your_first_name">First Name</string>
+    <string name="your_last_name">Last Name</string>
+    <string name="your_email">Email address</string>
+    <string name="your_phone">Cell Number</string>
+    <string name="your_Address1">Street Address</string>
+    <string name="your_Address2">City</string>
+    <string name="your_Address3">State</string>
+    <string name="your_Address4">Zip Code</string>
+    <string name="store_Address">Store Address</string>
+    <string name="prompt_email">NJIT UCID</string>
+    <string name="prompt_password">NJIT Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_login">UCID or password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="main_activity">Registration</string>
+    <string name="from_monday">Monday - coming from school</string>
+    <string name="from_tuesday">Tuesday - coming from school</string>
+    <string name="from_wednesday">Wednesday - coming from school</string>
+    <string name="from_thursday">Thursday - coming from school</string>
+    <string name="from_friday">Friday - coming from school</string>
+    <string name="from_saturday">Saturday - coming from school</string>
+    <string name="from_sunday">Sunday - coming from school</string>
+    <string name="to_monday">Monday - going to school</string>
+    <string name="to_tuesday">Tuesday - going to school</string>
+    <string name="to_wednesday">Wednesday - going to school</string>
+    <string name="to_thursday">Thursday - going to school</string>
+    <string name="to_friday">Friday - going to school</string>
+    <string name="to_saturday">Saturday - going to school</string>
+    <string name="to_sunday">Sunday - going to school</string>
+    <string name="suggested_groups">These are your suggested groups!</string>
+</resources>

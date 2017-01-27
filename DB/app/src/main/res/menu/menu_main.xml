@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".DisplayMessageActivity">
+    <item android:id="@+id/action_settings"
+        android:title="Register"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/findRide"
+        android:title="Find a Ride" />
+    <item android:id="@+id/login"
+        android:title="Log into the system" />
+</menu>
